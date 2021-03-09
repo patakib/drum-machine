@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e8eddf
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#drum-machine {
+  background-color: #333533;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 3vh 4vw 3vh 6vw;
+  border: 5px solid #f5cb5c;
+}
+#drum-pad-container {
+  margin: 0 auto;
+}
+button {
+  width: 43px;
+  height: 43px;
+  margin-top: 1vh;
+  margin-right: 0.5vw;
+  text-align: center;
+  background-color: #f5cb5c;
+  border-radius: 1vh;
+}
+#display {
+  color: white;
+  height: 20px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+input {
+  width: 135px;
 }
